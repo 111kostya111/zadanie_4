@@ -13,7 +13,7 @@ if vibor == "rad":
 elif vibor == "deg":
     ugol = math.radians(ugol)
 else:
-    print("Введено неккорктное значение")
+    print("Введено неккоректное значение")
     exit()
 
 sinx = round(math.sin(ugol), 2)
